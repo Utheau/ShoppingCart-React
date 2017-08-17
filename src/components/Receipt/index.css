@@ -1,0 +1,10 @@
+.price{
+  text-align: center;
+  font-size: x-large;
+  font-family: monospace;
+  background-color: lightskyblue;
+  color: ivory;
+  width: 100%;
+  float: right;
+  height: 30%;
+}
