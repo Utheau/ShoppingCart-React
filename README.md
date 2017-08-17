@@ -1,4 +1,4 @@
-# Technical Evaluation for React.js developer
+# Shopping cart 
 
 Demo of a shopping cart app, in order to be evaluated in React.js 
 
