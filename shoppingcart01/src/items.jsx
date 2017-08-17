@@ -1,6 +1,6 @@
 const threePerTwo = {
   type: 'threePerTwo',
-  everyThree: 3,
+  everyThree: 4,
   oneFree: 1,
   text: '3 per 2'
 }
@@ -21,7 +21,7 @@ const items = [
     img: 'https://static.vinepair.com/wp-content/uploads/2015/04/banana-beer-header.jpg'
   }, {
     id: 3,
-    price: 0.30,
+    price: 0.50,
     name: 'Blueberries',
     quantity: 1,
     discount: threePerTwo,
@@ -43,18 +43,17 @@ const items = [
     price: 0.25,
     name: 'Apples',
     quantity: 1,
-    discount: threePerTwo,
     img: 'https://mnhardy.umn.edu/sites/mnhardy.umn.edu/files/styles/hero_800x300/public/apples-hero.jpg?itok=2O_m1LBt'
   }, {
     id: 7,
-    price: 0.50,
+    price: 0.70,
     name: 'Strawberry',
     quantity: 1,
     discount: threePerTwo,
     img: 'https://i2.wp.com/files.hungryforever.com/wp-content/uploads/2014/12/strawberry-ice-cream-recipe-featured-image.jpg?fit=800%2C300'
   }, {
     id: 8,
-    price: 0.10,
+    price: 0.35,
     name: 'Cherry',
     quantity: 1,
     img: 'http://www.willungafarmersmarket.com.au/wp-content/uploads/2015/11/newcherries-800x300.jpg'

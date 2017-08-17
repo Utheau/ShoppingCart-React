@@ -42,13 +42,12 @@ class ProductsList extends Component {
           {fruits.map((fruit) => (
             <GridTile key={fruit.img}
               title={fruit.name}
-              subtitle={<span>Price <b>{fruit.price}</b> each</span>}
+              subtitle={<span>Price <b>{fruit.price}</b> each </span>}
               actionIcon={< IconButton >
-                <AddToCard color="yellow" />
+                <AddToCard color="yellow" onClick={() => this.buy(fruit)} />
               </IconButton>}
               titleStyle={styles.titleStyle}
-              titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
-              onClick={() => this.buy(fruit)}>
+              titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)">
               <img src={fruit.img} alt='' />
             </GridTile>
           ))}
