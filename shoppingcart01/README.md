@@ -1,8 +1,8 @@
-## Technical Evaluation for React.js developer
+# Technical Evaluation for React.js developer
 
 Demo of a shopping cart app, in order to be evaluated in React.js 
 
-#Instructions
+## Instructions
 
 * Clone the repository 
 
@@ -12,6 +12,6 @@ Demo of a shopping cart app, in order to be evaluated in React.js
 
 * Follow the instructions on the terminal on where your local server is running (ex. [http://localhost:3000/](http://localhost:3000/))
 
-#Extra
+## Extra
 
 * For testing run `npm test` 
